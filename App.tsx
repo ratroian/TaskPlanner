@@ -1,9 +1,8 @@
-// import 'react-native-gesture-handler';
 import React from "react";
-import { MainStackNavigator } from "./src/navigation/mainStackNavigator/mainStackNavigator";
+import { ContainerNavigator } from "./src/navigation/containerNavigator";
 
 export const App = () => {
     return (
-        <MainStackNavigator />
-    );
+        <ContainerNavigator />
+    );    
 }
